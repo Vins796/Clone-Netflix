@@ -1,0 +1,69 @@
+        <div class="container-fluid px-4">
+            <div class="row">
+                <div class="col">
+                    <!-- navbar -->
+                    <nav class="navbar navbar-expand-lg header-nav justify-content-between">
+                        <!-- blocco di sinistra -->
+                        <div class="navbar-nav navbar-items align-items-center">
+                            <!-- logo -->
+                            <a class="navbar-brand" href="#">
+                                <img class="img-fluid" src="ASSETS/img/Netflix_Logo_RGB.png" alt="logo-netflix">
+                            </a>
+                            <a class="nav-item nav-link active text-white" href="#">Home</a>
+                            <a class="nav-item nav-link text-white opacity-50" href="#">Tv Shows</a>
+                            <a class="nav-item nav-link text-white opacity-50" href="#">Movies</a>
+                            <a class="nav-item nav-link text-white opacity-50" href="#">Recently Added</a>
+                            <a class="nav-item nav-link text-white opacity-50" href="#">My List</a>
+                        </div>  
+                        <!-- blocco di destra -->
+                        <div class="navbar-nav navbar-items align-items-center">
+                            <a class="nav-item nav-link active text-white" href="#">
+                                <i class="bi bi-search"></i>
+                            </a>
+                            <a class="nav-item nav-link text-white" href="#">KIDS</a>
+                            <a class="nav-item nav-link text-white" href="#">
+                                <i class="bi bi-bell-fill"></i>
+                            </a>
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      <img class="img-avatar" src="ASSETS/img/darth.png" alt="profilo-img">
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item text-black me-4" href="#">Profilo</a></li>
+                                      <li><a class="dropdown-item text-black me-4" href="#">Settings</a></li>
+                                      <li><a class="dropdown-item text-black me-4" href="#">Logout</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div> 
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
