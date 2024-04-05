@@ -1,9 +1,7 @@
 let scroll = document.querySelectorAll(".scroll");
 
-function scrollCarousel() {
+document.addEventListener('scroll', function () {
     scroll.forEach(carousel => {
-        carousel.classList.add("carousel-visible")
+        carousel.classList.add('carousel-visible');        
     });
-
-}
-scrollCarousel()
+})
